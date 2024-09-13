@@ -1,0 +1,160 @@
+body{
+    background-color: #3a4a58;
+    font-family: Open Sans, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.full-container{
+    max-width: 640px;
+    margin: auto;
+    color: #8c8c8c
+}
+header{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.fa-solid{
+    font-size: 40px;
+    display: inline-block;
+    padding: 15px;
+}
+header h1{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 34px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+main{
+    background-color: white;
+}
+.intro-img{
+    background-image: url(chilling-cafe-01.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 420px;
+}
+
+section{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+section h2{
+    color: #996633;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+table {
+    width: 100%;
+    border-spacing: 0;
+    text-transform: capitalize;
+}
+thead{
+    background-color:#c4cdd6;
+    height: 50px;
+    color: black;
+}
+tbody{
+    font-size: 1.2rem;
+    color: #8f969c;
+}
+tr{
+    text-align: center;
+}
+table .pad-left{
+    text-align: left;
+}
+td{
+    padding: 10px 15px;
+}
+tr:nth-child(even){
+    background-color: #e5e8ed;
+}
+/* speical ittem */
+.special-item{
+    display: flex;
+    justify-content: space-around;
+    margin:0px -15px ;
+}
+.img-content{
+    padding: 0px 15px;
+}
+.img-content img{
+    max-height: 100%;
+}
+.caption{
+    margin-top: 10px;
+}
+.img-content span{
+    text-align: center;
+    display: block;
+    font-size: 17px;
+    color: #131415;
+    padding-top: 10px;
+}
+
+.about-section {
+    max-width: 500px;
+    margin: auto;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 14px 0px;
+}
+.about-section .social-icon {
+    margin-top: 30px;
+    text-align: center;
+}
+.icon-container {
+    display: inline-block;
+    margin: 3px;
+}
+a{
+    text-decoration: none;
+}
+.icon {
+    color: white;
+    background-color: #c8c8c8;
+    border-radius: 2px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon i {
+    font-size: 1.7rem;
+}
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    margin: 30px 0px;
+
+}
+hr{
+    width: 60%;
+    border: 0.5px solid gray;
+    margin: 0 20%;
+
+
+}
+@media (min-width: 350px) and (max-width:677px) {
+    .special-item{
+        display: block;
+    }
+    .img-content {
+        margin-top: 80px;
+    }
+    p {
+        text-align: center;
+    }
+
+}
