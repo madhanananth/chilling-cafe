@@ -119,6 +119,7 @@ p {
 }
 a{
     text-decoration: none;
+    color:black;
 }
 .icon {
     color: white;
