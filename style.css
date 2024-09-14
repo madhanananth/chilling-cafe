@@ -147,7 +147,7 @@ hr{
 
 
 }
-@media (min-width: 350px) and (max-width:677px) {
+@media (min-width: 350px) and (max-width:500px) {
     .special-item{
         display: block;
     }
@@ -156,6 +156,9 @@ hr{
     }
     p {
         text-align: center;
+    }
+    .full-container {
+        width: 95%;
     }
 
 }
